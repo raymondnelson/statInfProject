@@ -37,6 +37,7 @@ lambda <- .2
 # 40 columns represent random exp values
 # 1000 rows will hold the results of the simulation run
 
+set.seed(1234)
 simMatrix <- matrix(rexp(nosim * n, lambda), nosim)
 
 # 1. Show where the distribution is centered at and compare it to the theoretical center of the distribution.
